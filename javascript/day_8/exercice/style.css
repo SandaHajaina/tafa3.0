@@ -1,0 +1,59 @@
+body {
+    margin: auto;
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: aliceblue;
+}
+
+.container {
+    width: 60%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgba(255, 255, 255, 0.774) 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.post-title {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.post-content {
+    padding: 10px 0 10px 0;
+    border-top: rgba(128, 128, 128, 0.199) 1px solid;
+    border-bottom: rgba(128, 128, 128, 0.199) 1px solid;
+    margin-top: 5px;
+}
+
+.post-comment {
+    font-size: 14px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.151);
+}
+
+.user-post-comment {
+    font-size: 13px;
+    font-weight: bold;
+}
